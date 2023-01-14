@@ -164,7 +164,6 @@ Features section styles
 }
 
 .experience-box{
-    width: 342px;
     position: relative;
     bottom: 120px;
     right: 100px;
@@ -172,6 +171,7 @@ Features section styles
     color: #FFFFFF;
     text-align: center;
     background-color: var(--tertiary-color);
+    border: none;
     border-radius: 8px;
     padding: 45px 42px;
 
@@ -210,9 +210,113 @@ Features section styles
     gap: 10px;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    margin-bottom: 130px;
+    transition: all 1s linear;
 }
+
+.achievement-container:hover{
+    background-color: #FF900E;
+    transform: scale(1.5);
+    color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(192, 117, 31, 0.589);  
+} 
+
 .achievement-container h3{
     font-weight: 600;
     font-size: 45px;
     color: #424242;
+    transition: all 1s linear;
+}
+
+/*----------------------
+sponsors section style
+----------------------- */
+
+.sponsors-container{
+    text-align: center;
+}
+
+.sponsors-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    filter: grayscale(1);
+    margin-top: 50px;
+    margin-bottom: 130px;
+
+}
+/*--------------------- 
+contact form style
+------------------------ */
+.form-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-color: #FFF4E7;
+    padding: 130px 200px;
+}
+
+.contact-form input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    font-size: 18px;
+    border: 0;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    
+}
+
+.form-label{
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+
+/* -------------------
+    footer styles 
+----------------------*/
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 40px 0;
+    margin: 0 auto;
+
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+    .nav-container, 
+    .Features-container,
+    .service-section, 
+    .achievements,
+    .form-container
+    {
+        flex-direction: column;
+        /* align-items: center; */
+    } 
+    .nav-title{
+        margin-bottom: 30px;
+    }
+    .image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .experience-box{
+
+    }
+    .fact-section{
+        margin-left: 10px;
+    }
+    .achievements{
+        align-items: center;
+    }  
+    
+    .sponsors-logo img{
+        margin-bottom: 20px;
+    }
+    .form-container{
+        padding: 20px;
+    }
 }

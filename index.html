@@ -78,13 +78,13 @@
                 </div>
             </div>
                 <div>
-                    <div class="architect-img">
-                        <img src="images/architect.png" alt="">
+                    <div>
+                        <img src="images/architect.png" alt="" class="architect-img">
                     </div>
-                    <div class="experience-box">
+                    <button class="experience-box">
                         <h2>10+Year</h2>
                         <p>Experience</p>
-                    </div>
+                    </button>
                 </div>
             <!-- services section end -->
         </section>
@@ -118,12 +118,42 @@
 
         </section>
         <!-- sponsors section start -->
-        <section>
-            
+        <section class="sponsors-container">
+            <div class="title-container">
+                <h3 class="section-title">Our Sponsors</h3>
+                <p class="info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            </div>
+            <div class="sponsors-logo">
+                <img src="images/sponsors/spotify.png" alt="">
+                <img src="images/sponsors/amazon.png" alt="">
+                <img src="images/sponsors/google.png" alt="">
+                <img src="images/sponsors/telerama.png" alt="">
+                <img src="images/sponsors/figma.png" alt="">
+            </div>
+        </section>
+        <section class="form-container">
+            <div>
+                <h3 class="section-title">What to know more about Us?</h3>
+                <p class="info">messages us if you are interested to know about our services.</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <label for="name" class="form-label"> Your Name
+                        <input type="text" id="name" placeholder="your full name" required> 
+                    </label>
+                    <label for="email" class="form-label"> Your Email 
+                        <input type="email" id="email" placeholder="your email address" required>
+                    </label>
+                    <label for="message" class="form-label"> Message
+                        <textarea name="" id="message" cols="30" rows="10" placeholder="write us"></textarea>
+                    </label>
+                    <button class="btn-primary">Send</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-
+        <p class="info">All rig hts reserved copyright@2023 startup landing page design</p>
     </footer>
 </body>
 </html>
