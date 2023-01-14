@@ -1,0 +1,218 @@
+/*----------
+font
+------------ */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+/*-----------------
+common styles
+------------------- */
+:root{
+    --primary-color: #131313;
+    --secondary-color: #727272;
+    --tertiary-color: #FF900E;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*--------------
+ button style 
+ ----------------*/
+ .btn-primary{
+    Height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+    padding: 21px 25px;
+ }
+/* ---------------------
+navigation styles
+-------------------------*/
+.nav-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.nav-menu{
+    display: flex;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.nav-container ul li{
+    list-style: none;
+}
+
+/*-----------------------
+ brand section styles
+------------------------- */
+
+.brand-section{
+    text-align: center;
+    padding: 100px 0 50px;
+    background-color:rgba(255, 144, 14, 0.1);
+}
+.brand-details{
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.brand-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--primary-color);
+    margin-bottom: 32px;
+}
+.info{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.brand-section img{
+    max-width: 1440px;
+    width: 100%;
+}
+/*-------------------------- 
+Features section styles
+--------------------------- */
+
+.Features-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin: 130px auto;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+.section-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--primary-color);
+    margin-bottom: 24px;
+}
+.highlight-primary{
+    font-weight: 500;
+    color: var(--secondary-color)
+}
+
+.highlight-secondary{
+    color: var(--tertiary-color)
+}
+
+/*-----------------------
+ services section styles
+------------------------- */
+.service-section{
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    gap: 145px;
+    margin: 0 auto 130px;
+}
+.services .section-title{
+    border-left: 5px solid var(--tertiary-color);
+    padding-left: 15px;
+}
+.services .info{
+    margin-bottom: 30px;
+}
+.service-container{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.service-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.architect-img{
+    width: 100%;
+    max-width: 800px;
+}
+
+.experience-box{
+    width: 342px;
+    position: relative;
+    bottom: 120px;
+    right: 100px;
+    z-index: 1;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: var(--tertiary-color);
+    border-radius: 8px;
+    padding: 45px 42px;
+
+}
+.experience-box h2{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/*---------------------
+ fact section styles
+----------------------- */
+
+.fact-section{
+    width: 100%;
+    max-width: 542px;
+    margin-left: 100px;
+    margin-bottom: 130px;
+
+}
+
+/* ---------------------------
+    achievement section styles 
+------------------------------ */
+.achievements{
+    display: flex;
+    justify-content: space-evenly;
+}
+.achievement-container{
+    height: 241.83px;
+    width: 241.83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.achievement-container h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
