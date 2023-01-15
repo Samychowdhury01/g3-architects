@@ -1,19 +1,20 @@
 /*----------
 font
 ------------ */
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
 
 /*-----------------
 common styles
 ------------------- */
-:root{
+:root {
     --primary-color: #131313;
     --secondary-color: #727272;
     --tertiary-color: #FF900E;
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +24,7 @@ common styles
 /*--------------
  button style 
  ----------------*/
- .btn-primary{
+.btn-primary {
     Height: 64px;
     font-weight: 600;
     font-size: 20px;
@@ -33,11 +34,12 @@ common styles
     border-radius: 8px;
     margin-top: 32px;
     padding: 21px 25px;
- }
+}
+
 /* ---------------------
 navigation styles
 -------------------------*/
-.nav-container{
+.nav-container {
     width: 100%;
     display: flex;
     align-items: center;
@@ -46,12 +48,13 @@ navigation styles
     padding-top: 50px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 700;
     font-size: 45px;
     color: var(--primary-color);
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     gap: 50px;
     font-weight: 500;
@@ -59,7 +62,7 @@ navigation styles
     color: var(--secondary-color);
 }
 
-.nav-container ul li{
+.nav-container ul li {
     list-style: none;
 }
 
@@ -67,44 +70,48 @@ navigation styles
  brand section styles
 ------------------------- */
 
-.brand-section{
+.brand-section {
     text-align: center;
     padding: 100px 0 50px;
-    background-color:rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
 }
-.brand-details{
+
+.brand-details {
     width: 100%;
     max-width: 860px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
-.brand-title{
+.brand-title {
     font-weight: 700;
     font-size: 64px;
     color: var(--primary-color);
     margin-bottom: 32px;
 }
-.info{
+
+.info {
     font-weight: 400;
     font-size: 16px;
     color: var(--secondary-color);
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
-.fa-check{
+
+.fa-check {
     color: var(--tertiary-color);
     margin-right: 5px;
 }
 
-.brand-section img{
+.brand-section img {
     max-width: 1440px;
-    width: 100%;
+    width: 90%;
 }
+
 /*-------------------------- 
 Features section styles
 --------------------------- */
 
-.Features-container{
+.Features-container {
     width: 80%;
     display: flex;
     align-items: center;
@@ -112,59 +119,65 @@ Features section styles
     margin: 130px auto;
 }
 
-.image-container{
+.image-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 24px;
     column-gap: 24px;
 }
-.section-title{
+
+.section-title {
     font-weight: 600;
     font-size: 45px;
     color: var(--primary-color);
     margin-bottom: 24px;
 }
-.highlight-primary{
+
+.highlight-primary {
     font-weight: 500;
     color: var(--secondary-color)
 }
 
-.highlight-secondary{
+.highlight-secondary {
     color: var(--tertiary-color)
 }
 
 /*-----------------------
  services section styles
 ------------------------- */
-.service-section{
+.service-section {
     width: 100%;
     max-width: 90%;
     display: flex;
     gap: 145px;
     margin: 0 auto 130px;
 }
-.services .section-title{
+
+.services .section-title {
     border-left: 5px solid var(--tertiary-color);
     padding-left: 15px;
 }
-.services .info{
+
+.services .info {
     margin-bottom: 30px;
 }
-.service-container{
+
+.service-container {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     padding: 30px;
     margin-bottom: 20px;
 }
-.service-title{
+
+.service-title {
     font-weight: 600;
     font-size: 20px;
     color: var(--primary-color);
     margin-bottom: 10px;
 }
 
-.experience-box{
+.experience-box {
     position: relative;
     bottom: 120px;
     right: 100px;
@@ -177,7 +190,8 @@ Features section styles
     padding: 45px 42px;
 
 }
-.experience-box h2{
+
+.experience-box h2 {
     font-weight: 700;
     font-size: 65px;
 }
@@ -186,7 +200,7 @@ Features section styles
  fact section styles
 ----------------------- */
 
-.fact-section{
+.fact-section {
     width: 100%;
     max-width: 542px;
     margin-left: 100px;
@@ -197,11 +211,12 @@ Features section styles
 /* ---------------------------
     achievement section styles 
 ------------------------------ */
-.achievements{
+.achievements {
     display: flex;
     justify-content: space-evenly;
 }
-.achievement-container{
+
+.achievement-container {
     height: 241.83px;
     width: 241.83px;
     display: flex;
@@ -215,14 +230,14 @@ Features section styles
     transition: all 1s linear;
 }
 
-.achievement-container:hover{
+.achievement-container:hover {
     background-color: #FF900E;
     transform: scale(1.5);
     color: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(192, 117, 31, 0.589);  
-} 
+    box-shadow: 0px 4px 30px rgba(192, 117, 31, 0.589);
+}
 
-.achievement-container h3{
+.achievement-container h3 {
     font-weight: 600;
     font-size: 45px;
     color: #424242;
@@ -233,11 +248,11 @@ Features section styles
 sponsors section style
 ----------------------- */
 
-.sponsors-container{
+.sponsors-container {
     text-align: center;
 }
 
-.sponsors-logo{
+.sponsors-logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -246,10 +261,11 @@ sponsors section style
     margin-bottom: 130px;
 
 }
+
 /*--------------------- 
 contact form style
 ------------------------ */
-.form-container{
+.form-container {
     display: flex;
     gap: 100px;
     align-items: center;
@@ -257,16 +273,19 @@ contact form style
     padding: 130px 200px;
 }
 
-.contact-form input[type="text"], input[type="email"], textarea{
+.contact-form input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     font-size: 18px;
     border: 0;
+    border-radius: 10px;
     padding: 18px 30px;
     margin-bottom: 24px;
-    
+
 }
 
-.form-label{
+.form-label {
     font-size: 20px;
     color: var(--primary-color);
     margin-bottom: 10px;
@@ -276,7 +295,7 @@ contact form style
 /* -------------------
     footer styles 
 ----------------------*/
-footer{
+footer {
     width: 100%;
     text-align: center;
     background-color: #FFF4E7;
@@ -289,40 +308,102 @@ footer{
 /* Media Queries */
 
 @media only screen and (max-width: 576px) {
-    .nav-container, 
+
+/*--------------------------
+Mobile Responsive styles
+----------------------------  */
+    .nav-container,
     .Features-container,
-    .service-section, 
+    .service-section,
     .achievements,
-    .form-container
-    {
+    .form-container {
         flex-direction: column;
         /* align-items: center; */
-    } 
-    .nav-title{
+    }
+
+    .nav-title {
         margin-bottom: 30px;
     }
-    .image-container{
+
+    .nav-menu {
+        gap: 40px;
+    }
+
+    .image-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .architect-img{
+
+    .architect-img {
         width: 100%;
     }
-    .experience-box{
+
+    .experience-box {
         position: static;
         margin-top: 20px;
         margin-left: 5px;
     }
-    .fact-section{
+
+    .fact-section {
+        text-align: center;
         margin-left: 10px;
     }
-    .achievements{
+
+    .achievements {
         align-items: center;
-    }  
-    
-    .sponsors-logo img{
+    }
+
+    .sponsors-logo img {
         margin-bottom: 20px;
     }
-    .form-container{
-        padding: 20px;
+
+    .form-container,
+    .brand-details>.info,
+    .fact-section>.info,
+    .title-container>.info {
+        padding: 0 20px;
     }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+
+/*---------------------------
+ tablet Responsive styles
+----------------------------- */
+
+    .Features-container,
+    .service-section,
+    .achievements,
+    .form-container {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .architect-img {
+        width: 100%;
+    }
+
+    .experience-box {
+        position: static;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    .fact-section {
+        /* margin-left: 10px; */
+        margin: 0 auto 130px;
+        text-align: center;
+    }
+
+    .achievements {
+        align-items: center;
+    }
+
+    .sponsors-logo img {
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        padding: 50px;
+    }
+
 }
